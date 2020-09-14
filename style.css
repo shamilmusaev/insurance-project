@@ -340,3 +340,75 @@ img {
 
 
 /* Fredrik end */
+
+
+
+/* Shamil start*/
+
+.boxes{
+    display: grid;
+    grid-template-columns: 317px 317px 317px;
+    grid-template-rows: 317px 317px;
+}
+
+.boxes div {
+    
+    border: 1px solid black;
+}
+
+.box1{
+    background-color: #C7DDEA;
+}
+.box2{
+  background-color: #ffffff;  
+}
+.box3{
+    background-color: #EBEBEB;
+}
+.box4{
+   background-color: #ffffff; 
+}
+.box5{
+    background-color: #F17949;
+}
+.box6{
+    background-color: #ffffff;
+}
+
+.box1 h1{
+display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Shamil end*/
+
