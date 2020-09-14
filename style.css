@@ -14,9 +14,9 @@
 header {
     display: grid;
     grid-template: 
-      "... header1 header2 ..." 272px  
-      "... header1 header3 ..." 272px
-      / 1fr 501px 501px 1fr;
+     "header1 header2" 50% 
+     "header1 header3" 50%
+     / 50% 50%;
     
 }
 
@@ -30,9 +30,9 @@ span {
     grid-area: header1;
     display: grid;
     grid-template: 
-      "section1 section1" 265px
-      "section2 section3" 279px
-      /  198px 303px;
+    "section1 section1" auto
+    "section2 section3" 52%
+    /  40% 60%;
 }
 
 .header-section1 h1{
