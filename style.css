@@ -459,6 +459,30 @@ display: flex;
 
 
 
+.section1{
+    position: absolute;
+width: 951px;
+height: 68px;
+left: 473px;
+top: 2428px;
+
+background: #A9A19E;
+}
+
+.section1 p{
+    text-align: center;
+}
+
+.section2{
+    position: absolute;
+width: 951px;
+height: 340px;
+left: 472px;
+top: 2495px;
+
+background: #777574;
+}
+
 
 
 
