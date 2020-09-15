@@ -14,9 +14,9 @@
 header {
     display: grid;
     grid-template: 
-      "... header1 header2 ..." 272px  
-      "... header1 header3 ..." 272px
-      / 1fr 501px 501px 1fr;
+     "header1 header2" 50% 
+     "header1 header3" 50%
+     / 50% 50%;
     
 }
 
@@ -28,6 +28,11 @@ span {
 .header-section1 {
     background: #C7DDEA; 
     grid-area: header1;
+    display: grid;
+    grid-template: 
+    "section1 section1" auto
+    "section2 section3" 52%
+    /  40% 60%;
 }
 
 .header-section1 h1{
@@ -40,7 +45,10 @@ span {
     line-height: 100%;
     letter-spacing: -0.02em;
     color: #000000;
-    margin: 71px auto 0px 105px;
+    grid-area: section1;
+    margin-left: 105px;
+    margin-bottom: 0px;
+    margin-top: 71px;
     
 }
 
@@ -53,31 +61,19 @@ span {
     font-size: 13px;
     line-height: 24px;
     color: rgba(0, 0, 0, 0.6);
+    grid-area: section1;
     margin-left: 105px;
-    margin-top: 0;
+    margin-top: 172px;
     
 }
 
-button {
-    width: 131px;
-    height: 39px;
-    background: #FFFFFF;
-    box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.1);
-    border-radius: 100px;
-
-    font-family: Fira Sans;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 10px;
-    line-height: 12px;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto 179px 105px;
-
-    color: rgba(0, 0, 0, 0.8);
-    
   
+.header-section1 .join-button {
+    margin-left: 105px;
+    margin-top: 65px;
 }
+  
+
 button:hover {
     filter:drop-shadow(5px 5px 5px black) invert(100%); 
 }
@@ -85,6 +81,7 @@ button:hover {
 img {
     width: 286px;
     height: 279px;
+    grid-area: section3;
 }
 
 .header-section2 {
