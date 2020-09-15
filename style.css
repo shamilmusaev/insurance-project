@@ -236,9 +236,13 @@ img {
     text-align:center;
 }
 .aboutus > p {
-    color:black;
+    color: rgba(0, 0, 0, 0.6);
     text-align:center;
-    font-family: Verdana, Helvetica, sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
     width:50%;
     margin-left:auto;
     margin-right:auto;
@@ -263,7 +267,7 @@ img {
     /*padding:6wv 50px 150px 6wv;*/
     background-color:#A9A19E;
     background-image: linear-gradient(to bottom, #FAB131, #FAB131);
-    background-size: 100% 50%;
+    background-size: 100% 60vw;
     background-position: left bottom;
     background-repeat: no-repeat;
     color:rgba(0,0,0,0.8);
@@ -312,6 +316,7 @@ img {
 .main1 p {
     line-height:2em;
 }
+
 .aboutus h1 {
     text-align:center;
 }
